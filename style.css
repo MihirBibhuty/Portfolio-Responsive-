@@ -261,7 +261,7 @@ p{
 /* *********** Skills Starts ************* */
 
 .skills{
-    background: #f7f7f9;
+    background: #eeeeee;
     padding: 50px 0;
     margin-bottom: 50px;
 }
@@ -294,14 +294,7 @@ p{
     margin-top: 20px;
 }
 
-.levels{
-    position: relative;
-}
 
-.level1{
-    /* position: absolute; */
-    right: 0%;
-}
 
 
 
