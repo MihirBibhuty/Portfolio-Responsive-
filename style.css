@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -176,6 +180,7 @@ p{
 /* *********** About Starts ************* */
 
 .about{
+    width: 100%;
     padding: 50px 0;
     margin-bottom: 50px;
 }
@@ -261,6 +266,7 @@ p{
 /* *********** Skills Starts ************* */
 
 .skills{
+    width: 100%;
     background: #f7f7f9;
     padding: 50px 0;
     margin-bottom: 50px;
@@ -308,8 +314,9 @@ p{
 
 .projects{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 50px;
+    margin-bottom: 50px;
     position: relative;
 }
 
@@ -341,6 +348,132 @@ p{
     font-weight: 600;
 }
 
+.card{
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
 
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
 
 /* *********** Projects Ends ************* */
+
+
+
+
+/* *********** Contact Starts ************* */
+
+.contact{
+    width: 100%;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.contact::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(330deg, #16c9f6 55%, #fff 0%);
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 2.9rem;
+}
+
+.contact > p{
+    text-align: center;
+    margin-top: -15px;
+    color: rgb(221, 9, 9);
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* *********** Contact Ends ************* */
+
+
+
+
+/* *********** Footer Ends ************* */
+
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background: #00abff;
+    position: relative;
+}
+
+.footer p{
+    color: #fff;
+}
+
+.footer li a{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footer li a:hover{
+    text-decoration: underline;
+}
+
+.footer h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* *********** Footer Ends ************* */
+
+
+
+
+
+
+
+/* *********** Media Queries ************* */
+
+@media(max-width: 768px){
+    .nav-item{
+        text-align: center;
+        margin: 8px;
+    }
+
+    .about img{
+        width: 450px;
+        margin-bottom: 40px;
+    }
+
+    .box{
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .projects .card{
+        margin-bottom: 10px;
+    }
+
+    .footerDiv:nth-child(2){
+        text-align: left !important;
+    }
+
+    .footerDiv{
+        margin: 10px 0;
+    }
+
+}
+
+
