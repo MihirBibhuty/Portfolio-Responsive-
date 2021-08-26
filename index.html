@@ -32,11 +32,14 @@
 
 
 <body>
+
+
+
     <!-- *********** Header Starts ************* -->
-    <div class="header">
+    <div class="header" id="homeId">
 
         <!-- Navbar Starts -->
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
             <div class="container p-1">
                 <a class="navbar-brand logo" href="#"><img src="Portfolio.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -49,28 +52,28 @@
                     <ul class="navbar-nav ml-auto">
                         <div class="navDiv">
                             <li class="nav-item active menuCon">
-                                <a class="nav-link font-weight-bold text-white menu" href="#">Home <span
+                                <a class="nav-link font-weight-bold text-white menu" href="#homeId">Home <span
                                         class="sr-only">(current)</span></a>
                             </li>
                         </div>
                         <div class="navDiv">
                             <li class="nav-item menuCon">
-                                <a class="nav-link font-weight-bold text-white menu" href="#">About</a>
+                                <a class="nav-link font-weight-bold text-white menu" href="#aboutId">About</a>
                             </li>
                         </div>
                         <div class="navDiv">
                             <li class="nav-item menuCon">
-                                <a class="nav-link font-weight-bold text-white menu" href="#">Skills</a>
+                                <a class="nav-link font-weight-bold text-white menu" href="#skillsId">Skills</a>
                             </li>
                         </div>
                         <div class="navDiv">
                             <li class="nav-item menuCon">
-                                <a class="nav-link font-weight-bold text-white menu" href="#">Projects</a>
+                                <a class="nav-link font-weight-bold text-white menu" href="#projectsId">Projects</a>
                             </li>
                         </div>
                         <div class="navDiv">
                             <li class="nav-item menuCon">
-                                <a class="nav-link font-weight-bold text-white menu" href="#">Contact</a>
+                                <a class="nav-link font-weight-bold text-white menu" href="#contactId">Contact</a>
                             </li>
                         </div>
                     </ul>
@@ -108,7 +111,7 @@
 
 
     <!-- *********** About Starts *********** -->
-    <div class="about">
+    <div class="about" id="aboutId">
 
         <!-- Me Starts -->
         <div class="me">
@@ -136,7 +139,7 @@
                             Quoobcaecati accusamus natus consectetur assumenda. Nemo,
                             ipsam.</p>
 
-                        <a href="" class="bodyButton">Download CV</a>
+                        <a href="#skillsId" class="bodyButton">Download CV</a>
                     </div>
 
                 </div>
@@ -150,7 +153,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="box col-lg-4 col-md-4 col-12">
+                    <div class="box col-lg-4 col-md-4 col-10 offset-1 offset-lg-0 offset-md-0">
                         <a href="#"><i class="fa-3x fas fa-laptop"></i></a>
 
                         <h2>MULTITASKING</h2>
@@ -159,7 +162,7 @@
                             eligendi!</p>
                     </div>
 
-                    <div class="box col-lg-4 col-md-4 col-12">
+                    <div class="box col-lg-4 col-md-4 col-10 offset-1 offset-lg-0 offset-md-0">
                         <a href="#"><i class="fa-3x fas fa-fighter-jet"></i></a>
 
                         <h2>FAST LEARNER</h2>
@@ -167,7 +170,7 @@
                             aliquam n dbhhf. Quis ipam porro eligendi!</p>
                     </div>
 
-                    <div class="box col-lg-4 col-md-4 col-12">
+                    <div class="box col-lg-4 col-md-4 col-10 offset-1 offset-lg-0 offset-md-0">
                         <a href="#"><i class="fa-3x fas fa-magic"></i></a>
 
                         <h2>ENTHUSIAST</h2>
@@ -190,7 +193,7 @@
 
     <!-- *********** Skills Starts *********** -->
 
-    <section class="skills">
+    <section class="skills" id="skillsId">
         <h2>My Skills</h2>
         <p class="des"> ------- what I know -------- </p>
 
@@ -205,7 +208,7 @@
                         alias eveniet labore qui quod sit ex ut eum. Voluptatem exercitationem quibusdam itaque eum
                         nobis deleniti voluptates illum nostrum.</p>
 
-                    <a href="" class="bodyButton">Know More</a>
+                    <a href="#projectsId" class="bodyButton">Know More</a>
                 </div>
 
 
@@ -214,7 +217,7 @@
                     <div class="">
                         <h1 class="tag">HTML</h1>
                         <div class="progress w-100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%">90%
                             </div>
 
                         </div>
@@ -224,7 +227,7 @@
                         <h1 class="tag">CSS</h1>
                         <div class="progress w-100">
                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                                style="width:80%">
+                                style="width:80%">80%
                             </div>
 
                         </div>
@@ -234,7 +237,7 @@
                         <h1 class="tag">JavaScript</h1>
                         <div class="progress w-100">
                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-info"
-                                style="width:65%">
+                                style="width:65%">65%
                             </div>
 
                         </div>
@@ -244,7 +247,7 @@
                         <h1 class="tag">Bootstrap</h1>
                         <div class="progress w-100">
                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-                                style="width:95%">
+                                style="width:95%">95%
                             </div>
 
                         </div>
@@ -254,7 +257,7 @@
                         <h1 class="tag">Python</h1>
                         <div class="progress w-100">
                             <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                style="width:85%">
+                                style="width:85%">85%
                             </div>
 
                         </div>
@@ -273,7 +276,7 @@
 
     <!-- *********** Projects Starts *********** -->
 
-    <section class="projects">
+    <section class="projects" id="projectsId">
 
         <h2>My Projects</h2>
         <p class="des"> ------- what I have made -------- </p>
@@ -324,7 +327,7 @@
                                     adipisicing elit. Nesciunt
                                     quidem aperiam repellat quia labore temporibus inventore ab ducimus, nobis minus.
                                 </p>
-                                <a href="" class="btn btn-primary btn-lg">View Project</a>
+                                <a href="#" class="btn btn-primary btn-lg">View Project</a>
                             </div>
                         </div>
 
@@ -332,13 +335,122 @@
                 </div>
         </section>
 
-
     </section>
-
-
 
     <!-- *********** Projects Ends *********** -->
 
+
+
+
+
+    <!-- *********** Contact Starts *********** -->
+
+    <section class="contact" id="contactId">
+
+        <h2>Contact Me</h2>
+        <p> ------- how to reach out -------- </p>
+
+        <div>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1">
+                    <form class="container bg-light py-3 px-5" style="border-radius: 20px">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Name</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Username</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Message</label>
+                            <textarea class="form-control" id="message" rows="6"></textarea>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a href="" class="bodyButton">Submit</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- *********** Contact Ends *********** -->
+
+
+
+
+
+    <!-- *********** Footer Starts *********** -->
+
+    <footer class="footer" id="footerId">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-12 footerDiv">
+                    <div>
+                        <h3>About this Website</h3>
+                        <p>This website is made by HTML, CSS and Bootstrap. It is going to be updated soon with some
+                            JavaScript used in it. This website is going to be super awesome in some near furure.....
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12 footerDiv text-center">
+                    <div>
+                        <h3>Navigation Links</h3>
+                        <li><a href="#homeId">Home</a></li>
+                        <li><a href="#aboutId">About</a></li>
+                        <li><a href="#skillsId">Skills</a></li>
+                        <li><a href="#projectsId">Projects</a></li>
+                        <li><a href="#contactId">Contact</a></li>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12 footerDiv">
+                    <div>
+                        <h3>Subscribe</h3>
+
+                        <form class="form-inline">
+                            <div class="form-group mb-2">
+                            </div>
+                            <div class="form-group mb-2">
+                                <label for="inputPassword2" class="sr-only">Password</label>
+                                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2">Confirm</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-5 text-center">
+                <p>Copyright &copy;2021 All rights reserved | This template is made with utmost dedication and love by
+                    Mihir Bibhuty</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- *********** Footer Ends *********** -->
 
 
 
