@@ -476,9 +476,13 @@ p{
 /* *********** Media Queries ************* */
 
 @media(max-width: 768px){
+    
+    html{
+        font-size: 75%;
+    }
 
     .header{
-        height: 50vh;
+        height: 60vh;
         background-size: 100% 100%;
     }
 
